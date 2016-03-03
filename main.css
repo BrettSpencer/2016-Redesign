@@ -2388,6 +2388,8 @@ html {
 nav {
   position: relative; }
 
+nav li a {display:inline;}
+
 section.sec--works {
   padding-bottom: 0; }
 
@@ -2817,8 +2819,7 @@ section.sec--map {
   Navigation
 \*---------------------------------*/
 .nav__logo {
-  display: inline-block;
-  max-width: 10rem; }
+  display: inline-block;}
 
 .search__container {
   display: inline-block;

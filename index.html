@@ -31,16 +31,28 @@
 </head>
 <body>
     
+    <input id="nav" class="checkbox--header" type="checkbox" hidden="">
+  <ul class="list list--center nav text--uppercase">
+    <li class="conatiner__label--close"><label for="nav" class="link--black label--close">Close</label></li>
+    <li><a href="http://darkmassdesign.com" class="link--black">Home</a></li>
+    <li><a href="#about" class="link--black">About</a></li>
+    <li><a href="http://darkmassdesign.com/redo/#works" class="link--black">Works</a></li>
+    <li><a href="http://darkmassdesign.com/devdaily" class="link--black">Blog</a></li>
+    <li><a href="#contact" class="link--black">Contact</a></li>
+  </ul>
+    
 <div class="wrapper">
+    <!--[if lt IE 9]>
+      <p class="upgrade-browser">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
     <div class="container">
       <header role="banner">
         <nav role="navigation">
-        <ul>
-            <li><a href="">Articles</a></li>
-            <li><a href="">works</a></li>
-            <li><a href="">about</a></li>
-            <li><a href="">contact</a></li>
-        </ul>
+          <div class="nav__logo">
+            <h1 class="logo pull-left text--uppercase"><a href="http://darkmassdesign.com">Dark Mass Design</a></h1>
+          </div>
+          
+          <label for="nav" class="label--header">MENU</label>
         </nav>
       </header>
     </div>
@@ -49,7 +61,7 @@
         <h1 class="heading--primary text--bigger text--uppercase">Creating</h1>
         <p class="block--center text--big">the web I want to see</p>
         <div class="btn__container margin--three">
-          <a class="btn btn--ghost btn--ghost--white" href="#contact">Request Me</a>
+          <a class="btn btn--ghost btn--ghost--white" href="#contact">Hire Me</a>
         </div>
       </div>
     </section>
@@ -58,10 +70,99 @@
         <h1 class="heading--primary text--center">Welcome to Dark Mass Design</h1>
         <p class="block--center text--center text--intro text--intro--last">Dark Mass Design started as a passion project. As my love for web technology grew, so did the ever expanding development of Dark Mass.</p>
       </div>
-    </section>
-    <section class="sec--features">
+    </section><!-- end intro -->
+    
+        <section class="sec--works section--white" id="works">
       <div class="container">
-        <h1 class="heading--primary text--center">Articles</h1>
+        <h1 class="heading--primary text--center">Works</h1>
+      </div>
+      <div class="list list--center list--wrap">
+        <article class="card__work">
+          <a class="card__overlay" href="http://robinsalas.com/">
+            <h1 class="card__title">Robin Salas</h1>
+            <h2 class="card__skills">Stylist</h2>
+          </a>
+          <img class="card__thumbnail lazy" data-original="images/work-1.jpg" alt="Robin Salas" src="images/robin.JPG">
+          <noscript>
+            &lt;img class="card__thumbnail" src="images/salas.JPG" alt="Robin Salas"&gt;
+          </noscript>
+        </article>
+        <article class="card__work">
+          <a class="card__overlay" href="http://myjeepleaks.com/">
+            <h1 class="card__title">My Jeep Leaks</h1>
+            <h2 class="card__skills">Specialty</h2>
+          </a>
+          <img class="card__thumbnail lazy" data-original="images/work-2.jpg" alt="My Jeep Leaks" src="images/jeep.JPG">
+          <noscript>
+            &lt;img class="card__thumbnail" src="images/work-2.jpg" alt="My Jeep Leaks"&gt;
+          </noscript>
+        </article>
+        <article class="card__work">
+          <a class="card__overlay" href="http://believeintibet.org/">
+            <h1 class="card__title">Believe in Tibet</h1>
+            <h2 class="card__skills">Non-Profit</h2>
+          </a>
+          <img class="card__thumbnail lazy" data-original="images/work-3.jpg" alt="Believe in Tibet" src="images/tibet.jpg">
+          <noscript>
+            &lt;img class="card__thumbnail" src="images/work-3.jpg" alt="Believe in Tibet"&gt;
+          </noscript>
+        </article>
+        <article class="card__work">
+          <a class="card__overlay" href="http://fancydogwalking.com">
+            <h1 class="card__title">Fancy Dog Walking</h1>
+            <h2 class="card__skills">Pet Services</h2>
+          </a>
+          <img class="card__thumbnail lazy" data-original="images/work-4.jpg" alt="Dark Mass Design" src="images/fancy.JPG">
+          <noscript>
+            &lt;img class="card__thumbnail" src="images/work-4.jpg" alt="Fancy Dog Waling"&gt;
+          </noscript>
+        </article>
+        <article class="card__work">
+          <a class="card__overlay" href="http://">
+            <h1 class="card__title">Monkeys to America</h1>
+            <h2 class="card__skills">My First Site</h2>
+          </a>
+          <img class="card__thumbnail lazy" data-original="images/work-5.jpg" alt="Monkeys to America" src="images/monkeys.JPG">
+          <noscript>
+            &lt;img class="card__thumbnail" src="images/work-5.jpg" alt="Monkeys to America"&gt;
+          </noscript>
+        </article>
+       <!-- <article class="card__work">
+          <a class="card__overlay" href="http://">
+            <h1 class="card__title">Hidden Realities</h1>
+            <h2 class="card__skills">photography</h2>
+          </a>
+          <img class="card__thumbnail lazy" data-original="images/work-6.jpg" alt="Portfolio thumbnail" src="">
+          <noscript>
+            &lt;img class="card__thumbnail" src="images/work-6.jpg" alt="Portfolio thumbnail"&gt;
+          </noscript>
+        </article>
+        <article class="card__work">
+          <a class="card__overlay" href="http://">
+            <h1 class="card__title">War &amp; Peace</h1>
+            <h2 class="card__skills">photography</h2>
+          </a>
+          <img class="card__thumbnail lazy" data-original="images/work-7.jpg" alt="Portfolio thumbnail" src="">
+          <noscript>
+            &lt;img class="card__thumbnail" src="images/work-7.jpg" alt="Portfolio thumbnail"&gt;
+          </noscript>
+        </article>
+        <article class="card__work">
+          <a class="card__overlay" href="http://">
+            <h1 class="card__title">No rush</h1>
+            <h2 class="card__skills">photography</h2>
+          </a>
+          <img class="card__thumbnail lazy" data-original="images/work-8.jpg" alt="Portfolio thumbnail" src="">
+          <noscript>
+            &lt;img class="card__thumbnail" src="images/work-8.jpg" alt="Portfolio thumbnail"&gt;
+          </noscript>
+        </article> -->
+      </div>
+    </section>
+    
+    <section class="sec--features" id="blog">
+      <div class="container">
+        <h1 class="heading--primary text--center">Blog</h1>
         <div class="grid__row list list--around list--wrap">
           <article class="card card--long">
             <h1 class="card__heading">Code Editing</h1>
@@ -126,94 +227,6 @@
             </div>
           </article>
         </div>
-      </div>
-    </section>
-    
-    <section class="sec--works section--white">
-      <div class="container">
-        <h1 class="heading--primary text--center">Works</h1>
-      </div>
-      <div class="list list--center list--wrap">
-        <article class="card__work">
-          <a class="card__overlay" href="http://robinsalas.com/">
-            <h1 class="card__title">Robin Salas</h1>
-            <h2 class="card__skills">Stylist</h2>
-          </a>
-          <img class="card__thumbnail lazy" data-original="images/work-1.jpg" alt="Robin Salas" src="images/robin.png">
-          <noscript>
-            &lt;img class="card__thumbnail" src="images/salas.JPG" alt="Robin Salas"&gt;
-          </noscript>
-        </article>
-        <article class="card__work">
-          <a class="card__overlay" href="http://myjeepleaks.com/">
-            <h1 class="card__title">My Jeep Leaks</h1>
-            <h2 class="card__skills">Specialty</h2>
-          </a>
-          <img class="card__thumbnail lazy" data-original="images/work-2.jpg" alt="My Jeep Leaks" src="images/jeep.JPG">
-          <noscript>
-            &lt;img class="card__thumbnail" src="images/work-2.jpg" alt="My Jeep Leaks"&gt;
-          </noscript>
-        </article>
-        <article class="card__work">
-          <a class="card__overlay" href="http://believeintibet.org/">
-            <h1 class="card__title">Believe in Tibet</h1>
-            <h2 class="card__skills">Non-Profit</h2>
-          </a>
-          <img class="card__thumbnail lazy" data-original="images/work-3.jpg" alt="Believe in Tibet" src="images/tibet.jpg">
-          <noscript>
-            &lt;img class="card__thumbnail" src="images/work-3.jpg" alt="Believe in Tibet"&gt;
-          </noscript>
-        </article>
-        <article class="card__work">
-          <a class="card__overlay" href="http://darkmassdesign.com/old">
-            <h1 class="card__title">Dark Mass Design</h1>
-            <h2 class="card__skills">Original Design</h2>
-          </a>
-          <img class="card__thumbnail lazy" data-original="images/work-4.jpg" alt="Dark Mass Design" src="images/brett.JPG">
-          <noscript>
-            &lt;img class="card__thumbnail" src="images/work-4.jpg" alt="Dark Mass Design"&gt;
-          </noscript>
-        </article>
-        <article class="card__work">
-          <a class="card__overlay" href="http://">
-            <h1 class="card__title">Monkeys to America</h1>
-            <h2 class="card__skills">First Site</h2>
-          </a>
-          <img class="card__thumbnail lazy" data-original="images/work-5.jpg" alt="Monkeys to America" src="images/monkeys.JPG">
-          <noscript>
-            &lt;img class="card__thumbnail" src="images/work-5.jpg" alt="Monkeys to America"&gt;
-          </noscript>
-        </article>
-       <!-- <article class="card__work">
-          <a class="card__overlay" href="http://">
-            <h1 class="card__title">Hidden Realities</h1>
-            <h2 class="card__skills">photography</h2>
-          </a>
-          <img class="card__thumbnail lazy" data-original="images/work-6.jpg" alt="Portfolio thumbnail" src="">
-          <noscript>
-            &lt;img class="card__thumbnail" src="images/work-6.jpg" alt="Portfolio thumbnail"&gt;
-          </noscript>
-        </article>
-        <article class="card__work">
-          <a class="card__overlay" href="http://">
-            <h1 class="card__title">War &amp; Peace</h1>
-            <h2 class="card__skills">photography</h2>
-          </a>
-          <img class="card__thumbnail lazy" data-original="images/work-7.jpg" alt="Portfolio thumbnail" src="">
-          <noscript>
-            &lt;img class="card__thumbnail" src="images/work-7.jpg" alt="Portfolio thumbnail"&gt;
-          </noscript>
-        </article>
-        <article class="card__work">
-          <a class="card__overlay" href="http://">
-            <h1 class="card__title">No rush</h1>
-            <h2 class="card__skills">photography</h2>
-          </a>
-          <img class="card__thumbnail lazy" data-original="images/work-8.jpg" alt="Portfolio thumbnail" src="">
-          <noscript>
-            &lt;img class="card__thumbnail" src="images/work-8.jpg" alt="Portfolio thumbnail"&gt;
-          </noscript>
-        </article> -->
       </div>
     </section>
     
@@ -282,18 +295,18 @@
     <section id="contact" class="sec--contact">
       <div class="container">
         <h1 class="heading--primary text--center">Leave Me A Note</h1>
-        <p class="block--center text--center text--intro">Got some interesting idea you want to start on? Get in touch with me, and let's make your project reality.</p>
+        <p class="block--center text--center text--intro">Got some interesting ideas you want to start on? Get in touch with me, and let's make your project a reality.</p>
         <form id="form" class="form" action="http://alexdevero.com/demos/template--nemesis/contact.php" method="post">
           <div class="row">
             <div class="column one-half">
               <div class="form__container">
-                <label for="formName" class="form__label">Your Name</label>
+                <label for="formName" class="form__label">Name</label>
                 <input id="formName" class="form__element" name="name" type="text" required="">
               </div>
             </div>
             <div class="column one-half">
               <div class="form__container">
-                <label for="formEmail" class="form__label">Your e-mail</label>
+                <label for="formEmail" class="form__label">E-mail</label>
                 <input id="formEmail" class="form__element" name="email" type="email" required="">
               </div>
             </div>
